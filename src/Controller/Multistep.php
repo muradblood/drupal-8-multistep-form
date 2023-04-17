@@ -30,7 +30,7 @@ class Multistep extends ControllerBase {
   /**
    * Add formbuilder
    */
-  public function __construct(FormBuilderInterface $form_builder) {
+  public function __construct( $form_builder) {
     $this->formBuilder = $form_builder;
   }
 
@@ -42,3 +42,4 @@ class Multistep extends ControllerBase {
   }
 
 }
+FormBuilderInterface
